@@ -1,0 +1,87 @@
+
+#tbl{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+#tbl tr:nth-child(odd)
+{
+   background-color: rgba(80, 79, 79, 0.1);
+} 
+ body{
+   
+   background-image: url('/assets/2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+   color: black;
+ }
+ 
+.container{
+    background-color: rgba(80, 79, 79, 0.6);
+  
+    border-radius: 10px;
+    width: 70%;
+    height: 100;
+    margin: auto;
+     padding-bottom: 30px;
+    
+}
+.card{
+   background: rgba(255, 255, 255, 1);
+  
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+h2{
+  
+    border-radius: 10px 10px 0 0;
+    background-color: grey;
+    padding: 10px;
+  }
+th, td {
+  padding: 20px 15px;
+  text-align: left;
+      }
+
+.image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+.status{
+  
+  padding: 5px 20px ;
+  border-radius: 12px;
+  font-size: 12px;
+  height: 50px;
+
+
+}
+ .delivered {
+  background: #b9fbc0;
+  color: #1b5e20;
+   
+
+}
+
+.cancelled {
+  background: #ffcdd2;
+  color: #c62828;
+  
+}
+
+.shipped {
+  background: #b3e5fc;
+  color: #0277bd;
+}
+
+.pending {
+  background: #ffe082;
+  color: #f57f17;
+}

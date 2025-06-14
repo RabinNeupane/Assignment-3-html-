@@ -64,24 +64,29 @@ th, td {
 
 }
  .delivered {
-  background: #b9fbc0;
+  background: #07f81f;
   color: #1b5e20;
-   
-
 }
 
 .cancelled {
-  background: #ffcdd2;
-  color: #c62828;
+  background: #e10f24;
+  color: #5e0505;
   
 }
 
 .shipped {
-  background: #b3e5fc;
-  color: #0277bd;
+  background: #08aaf6;
+  color: #03507c;
 }
 
 .pending {
-  background: #ffe082;
+  background: #fcf808;
   color: #f57f17;
 }
+span:hover
+{
+    /* background-color: gray; */
+    color:black;
+    cursor: pointer;
+}
+
